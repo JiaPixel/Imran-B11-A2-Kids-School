@@ -24,5 +24,21 @@
 
 /* curriculum style */
 
+/* stories style  */
+
+main{
+    background-image: url(../assets/bg.png);
+
+}
 
 
+/* footer style */
+footer{
+    background-color: #fdf901;
+    padding: 123px 228px 174px 140px;
+    gap: 172px;
+}
+.foot-logo{
+    width: 80px;
+    height: 82px;
+}
