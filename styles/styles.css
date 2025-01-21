@@ -1,8 +1,3 @@
-* {
-    margin: 0 auto; /* Center the container */
-    max-width: 1200px; /* Set a max width for larger screens */
-    padding: 0 5%; /* Add padding as a percentage of the viewport width */
-  }
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 .quicksand-font {
@@ -110,47 +105,21 @@ main{
     }
 }
 
-
-/* hero style */
-
-.title{
-    padding: 122px 0;
-}
-.hero-title{
-  
-font-size: 56px;
-font-weight: 700;
-letter-spacing: 0%;
-text-align: left;
-}
-.Empowering{
-    color: orange;
-}
-.towards-vision{
-    color: skyblue;
-}
-.hero-img{
-    width: 468px;
-    height: 575px;
-}
-
 /* curriculum style */
 .curriculum{
-margin: 200px;    
+    padding: 80px 140px;
 }
-
+.cart{
+    justify-content: space-around;
+}
 /* stories style  */
 
-
-
+.stories{
+    padding: 80px 140px;
+}
 
 /* footer style */
 footer{
-    background-color: #fdf901;
-    padding: 123px 228px 174px 140px;
-    gap: 172px;
-}
-.foot-logo{
-    width: 80px;
-    height: 82px;
+    justify-content: space-evenly;
+    background-color: yellow;
 }
