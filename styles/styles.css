@@ -1,4 +1,8 @@
-
+* {
+    margin: 0 auto; /* Center the container */
+    max-width: 1200px; /* Set a max width for larger screens */
+    padding: 0 5%; /* Add padding as a percentage of the viewport width */
+  }
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 .quicksand-font {
@@ -28,10 +32,6 @@ main{
 
 }
 /* nav style */
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
 
 .navbar {
     display: flex;
@@ -112,21 +112,14 @@ body {
 
 
 /* hero style */
-.hero{
-    gap: 50px;
-    margin: 60px 141px;
-    padding: 122px 0;
-    width: 1158px;
-    height: 575px;
-}
+
 .title{
     padding: 122px 0;
 }
 .hero-title{
-    font-family: Quicksand;
+  
 font-size: 56px;
 font-weight: 700;
-line-height: 61px;
 letter-spacing: 0%;
 text-align: left;
 }
