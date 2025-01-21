@@ -27,13 +27,15 @@ main{
 
 }
 /* nav style */
-
+header{
+    
+}
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #fdf901;
-    padding: 10px 20px;
+    padding: 10px 140px;
     color: white;
 }
 
@@ -78,7 +80,7 @@ main{
 }
 
 /* Mobile styles */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
     .nav-links {
         display: none;
         flex-direction: column;
@@ -105,12 +107,19 @@ main{
     }
 }
 
+/* hero style */
+.hero{
+    padding: 80px 140px;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /* curriculum style */
 .curriculum{
     padding: 80px 140px;
 }
 .cart{
-    justify-content: space-around;
+    justify-content: space-between;
 }
 /* stories style  */
 
@@ -120,6 +129,7 @@ main{
 
 /* footer style */
 footer{
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: yellow;
+    padding: 80px 140px;
 }
