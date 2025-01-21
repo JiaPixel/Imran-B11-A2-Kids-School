@@ -250,10 +250,58 @@ header{
 .stories{
     padding: 80px 140px;
 }
-
+.stories-containier{
+    display: flex;
+}
+.stories-cart1{
+    display: flex;
+    flex-direction: column;
+}
+.stories-cart2{
+    display: flex;
+    flex-direction: column;
+}
+.stories-cart3{
+    display: flex;
+    flex-direction: column;
+}
+.stories-cart4{
+    display: flex;
+    flex-direction: column;
+}
+.stories-cart5{
+    display: flex;
+    flex-direction: column;
+}
+.btn-stories{
+    color: white;
+    padding: 10px 30px;
+    margin-top: -15px;
+    border-radius: 47px;
+    background-color: #95B226;
+    width: 175px;
+    border: none;
+}
 /* footer style */
 footer{
     justify-content: space-between;
     background-color: yellow;
     padding: 80px 140px;
+}
+
+.footer-title{
+    color: #ffffff;
+font-size: 2.6rem;
+font-weight: 700;
+line-height: 2.5rem;
+letter-spacing: 0%;
+text-align: left;
+}
+.foot-item{
+   list-style-type: none; 
+   padding: 0;
+   
+}
+.li{
+    margin-bottom: 1.25rem;
 }
