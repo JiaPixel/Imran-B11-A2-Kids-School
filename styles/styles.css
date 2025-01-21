@@ -36,6 +36,14 @@ marquee{
     text-align: center;
     font-size: 3rem;
 }
+h1{
+   
+font-size: 3.5rem;
+font-weight: 700;
+line-height: 61px;
+letter-spacing: 0%;
+text-align: left;
+}
 h2{
       color: #000000;
       font-weight: 700;
@@ -138,8 +146,15 @@ header{
     padding: 80px 140px;
     justify-content: space-between;
     align-items: center;
+    gap: 50px;
 }
 
+.Empowering{
+    color: orange;
+}
+.towards-vision{
+    color: #01acfd;
+}
 /* curriculum style */
 .curriculum{
     padding: 80px 140px;
