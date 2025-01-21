@@ -28,10 +28,10 @@ main{
 
 }
 marquee{
-    color: #f15555;
-    background-color: #ccf175;
+    color: white;
+    background-color: #0E0D1B;
     font-weight: 700;
-    line-height: 57.5px;
+    line-height: 3.75rem;
     letter-spacing: 0%;
     text-align: center;
     font-size: 3rem;
@@ -52,17 +52,21 @@ h2{
       text-align: center;
       font-size: 3rem;
 }
+h4{
+    color: white;
+}
 /* nav style */
-header{
-    
+.logo, .foot-logo {
+    max-width: 3.875rem;
+    max-height: 3.875rem;
 }
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #fdf901;
+    background-color: #102b2a;
     padding: 10px 140px;
-    color: white;
+    
 }
 
 .navbar .logo {
@@ -285,23 +289,20 @@ header{
 /* footer style */
 footer{
     justify-content: space-between;
-    background-color: yellow;
+    background-color: #102b2a;
     padding: 80px 140px;
 }
 
-.footer-title{
-    color: #ffffff;
-font-size: 2.6rem;
-font-weight: 700;
-line-height: 2.5rem;
-letter-spacing: 0%;
-text-align: left;
-}
+
 .foot-item{
    list-style-type: none; 
    padding: 0;
    
 }
+.foot-text{
+    color: white;
+}
 .li{
+    color: white;
     margin-bottom: 1.25rem;
 }
