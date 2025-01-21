@@ -1,3 +1,5 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 // <uniquifier>: Use a unique and descriptive class name
@@ -9,14 +11,28 @@
   font-weight: 400;
   font-style: normal;
 }
+body{
+    margin: auto auto;
 
+    justify-items: center;
+}
 /* shared styles */
 
 .display-flex{
     display: flex;
     
 }
+
+main{
+    background-image: url(../assets/bg.png);
+
+}
+
 .btn-primary{
+    color: #ffffff;
+    background-color: black;
+    padding: 10px 47px;
+    border-radius: 12px;
 
 }
 
@@ -26,10 +42,7 @@
 
 /* stories style  */
 
-main{
-    background-image: url(../assets/bg.png);
 
-}
 
 
 /* footer style */
