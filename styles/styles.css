@@ -1,21 +1,13 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
 
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900
-
-.raleway-font {
-  font-family: "Raleway", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-body{
-    margin: auto auto;
-
-    justify-items: center;
-}
 /* shared styles */
 
 .display-flex{
@@ -35,10 +27,124 @@ main{
     border-radius: 12px;
 
 }
+/* nav style */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fdf901;
+    padding: 10px 20px;
+    color: white;
+}
+
+.navbar .logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+.navbar1{
+    text-decoration: none;
+    color: orange;
+}
+.navbar2{
+    text-decoration: none;
+    color: skyblue;
+}
+.navbar3{
+    text-decoration: none;
+    color: #b68833;
+}
+.navbar4{
+    text-decoration: none;
+    color: #5D58EF;
+}
+
+
+.nav-links a:hover {
+    color: green;
+}
+
+.hamburger {
+    display: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+/* Mobile styles */
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background-color: #333;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        width: 200px;
+        border-radius: 5px;
+    }
+
+    .nav-links li {
+        text-align: center;
+        padding: 10px 0;
+        border-bottom: 1px solid #444;
+    }
+
+    .nav-links li:last-child {
+        border-bottom: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
+
 
 /* hero style */
+.hero{
+    gap: 50px;
+    margin: 60px 141px;
+    padding: 122px 0;
+    width: 1158px;
+    height: 575px;
+}
+.title{
+    padding: 122px 0;
+}
+.hero-title{
+    font-family: Quicksand;
+font-size: 56px;
+font-weight: 700;
+line-height: 61px;
+letter-spacing: 0%;
+text-align: left;
+}
+.Empowering{
+    color: orange;
+}
+.towards-vision{
+    color: skyblue;
+}
+.hero-img{
+    width: 468px;
+    height: 575px;
+}
 
 /* curriculum style */
+.curriculum{
+margin: 200px;    
+}
 
 /* stories style  */
 
