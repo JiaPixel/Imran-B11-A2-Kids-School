@@ -213,6 +213,9 @@ p{
     gap: 28px;
     margin-bottom: 80px;
 }
+.cart-description{
+    text-align: center;
+}
 .cart1{
     background: linear-gradient(to bottom, #3519cf, #ffffff);
     border-radius: 20px;
@@ -443,7 +446,7 @@ letter-spacing: 0%;
     flex-direction: column;
     height: 300px;
 }
-.btn-stories{
+.btn-stories1, .btn-stories2, .btn-stories3, .btn-stories4, .btn-stories5{
     color: white;
     padding: 10px 10px;
     margin-left: 25px;
@@ -453,6 +456,14 @@ letter-spacing: 0%;
     width: 175px;
     border: none;
 }
+.btn-stories1{
+    background-color: #3CD8E8;
+}
+.btn-stories3{
+    background-color: #5D58F0;
+}
+
+
 .btn-primary-stories{
        margin: 80px 0;
 
