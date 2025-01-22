@@ -57,6 +57,10 @@ h2{
 h4{
     color: white;
 }
+p{
+    margin: 1.5rem 0;
+    color: #808080;
+}
 /* nav style */
 .logo, .foot-logo {
     max-width: 3.875rem;
@@ -180,6 +184,7 @@ h4{
     justify-items: center;
 }
 .cart{
+    margin-top: 80px;
     justify-content: space-between;
     gap: 28px;
     margin-bottom: 80px;
@@ -276,23 +281,27 @@ h4{
 
 .stories{
     padding: 80px 140px;
+    background: linear-gradient(to top, hsla(342, 98%, 50%, 0.247), hsla(0, 0%, 100%, 0));
 }
 .stories-containier{
     display: flex;
     flex-direction: row;
+    margin-top: 80px;
     gap: 10px;
+
     
 }
 .stories-containier > div {
   flex: 1;  
 }
 .cart-primary{
+    background: white;
     display: flex;
     flex-direction: column;
     max-width: 50%;
     height: 100%;
     border-radius: 10px;
-    border: 1px solid saddlebrown;
+    
 }
 
 .cart-secondary{
@@ -311,14 +320,14 @@ h4{
     flex-direction: column;
     max-width: 50%;
     height: 50%;
-    gap: 10px;
+    gap: 30px;
 }
 .cart-secondary2{
     display: flex;
     flex-direction: column;
     max-width: 50%;
     height: 50%;
-    gap: 5px;
+    gap: 30px;
 }
 
 .stories-img{
@@ -330,22 +339,62 @@ h4{
 .stories-cart1{
     display: flex;
     flex-direction: column;
+    height: 630px;
+}
+.stories-title1{
+    color: rgb(0, 0, 0);
+
+font-size: 24px;
+font-weight: 700;
+line-height: 38.35px;
+letter-spacing: 0%;
+text-align: left;
+padding: 1.25rem 2rem ;
+width: 402.49px;
+height: 69.98px;
+}
+.stories-description1{
+    padding: 2rem;
+    color: #666666;
+}
+
+.stories-title{
+    padding: 2.5rem;
+    
+font-size: 15.34px;
+font-weight: 700;
+line-height: 28.76px;
+letter-spacing: 0%;
+
+
 }
 .stories-cart2{
+    background: white;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
+    height: 300px;
 }
 .stories-cart3{
+    background: white;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
+    height: 300px;
 }
 .stories-cart4{
+    background: white;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
+    height: 300px;
 }
 .stories-cart5{
+    background: white;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
+    height: 300px;
 }
 .btn-stories{
     color: white;
@@ -374,9 +423,17 @@ footer{
 }
 .li{
     color: white;
-    margin-bottom: 1.25rem;
+    margin-top: 1.25rem;
 }
+.foot-logo-container, .nav-logo{
+    justify-content: left;
+    align-items: center;
+    
 
+}
+.social-icon{
+    margin-top: 1.25rem;
+}
 /* Mobile styles */
 @media screen and (max-width: 576px) {
   .footer{
