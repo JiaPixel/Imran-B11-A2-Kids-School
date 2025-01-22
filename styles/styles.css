@@ -279,7 +279,54 @@ h4{
 }
 .stories-containier{
     display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
 }
+.stories-containier > div {
+  flex: 1;  
+}
+.cart-primary{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid saddlebrown;
+}
+
+.cart-secondary{
+    display: flex;
+    flex-direction: row;
+    max-width: 50%;
+    height: 100%;
+    gap: 5px;
+}
+.cart-secondary > div{
+    flex: 1;
+}
+
+.cart-secondary1{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    height: 50%;
+    gap: 10px;
+}
+.cart-secondary2{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    height: 50%;
+    gap: 5px;
+}
+
+.stories-img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
 .stories-cart1{
     display: flex;
     flex-direction: column;
