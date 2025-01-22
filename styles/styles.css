@@ -233,6 +233,15 @@ p{
     font-weight: 700;
     padding: 5px;
 }
+.cart-btn1:hover {
+    color: rgb(255, 0, 0);
+}
+.cart-btn2:hover {
+    color: rgb(255, 0, 0);
+}
+.cart-btn3:hover {
+    color: rgb(255, 0, 0);
+}
 .cart-btn2{
     color: orange;
     border: none;
