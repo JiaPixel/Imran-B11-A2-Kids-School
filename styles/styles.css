@@ -356,15 +356,15 @@ p{
 }
 .stories-title1{
     color: rgb(0, 0, 0);
-
-font-size: 24px;
-font-weight: 700;
-line-height: 38.35px;
-letter-spacing: 0%;
-text-align: left;
-padding: 0 2rem ;
-width: 402.49px;
-height: 69.98px;
+    margin-top: 1.5rem;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38.35px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 0 2rem ;
+    width: 402.49px;
+    height: 69.98px;
 }
 .stories-description1{
     padding: 0 2rem;
