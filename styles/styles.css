@@ -336,8 +336,14 @@ p{
     height: 50%;
     gap: 30px;
 }
+.stories-img1{
+    max-height: 337px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
 
-.stories-img{
+.stories-img2, .stories-img3, .stories-img4, .stories-img5{
+    max-height: 177px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
