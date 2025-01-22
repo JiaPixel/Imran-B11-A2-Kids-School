@@ -452,9 +452,12 @@ letter-spacing: 0%;
     margin-left: 25px;
     margin-top: -17px;
     border-radius: 47px;
-    background-color: #95B226;
     width: 175px;
     border: none;
+}
+.btn-stories2, .btn-stories4, .btn-stories5{
+    background-color: #95B226;
+    
 }
 .btn-stories1{
     background-color: #3CD8E8;
