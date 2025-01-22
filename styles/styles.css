@@ -125,6 +125,17 @@ p{
 
 /* Mobile styles */
 @media screen and (max-width: 576px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #102b2a;
+        padding: 10px 0;
+    }
+    
+    .nav-btn{
+        display: none;
+    }
     .nav-links {
         display: none;
         flex-direction: column;
@@ -169,6 +180,7 @@ p{
 @media screen and (max-width: 576px) {
     .hero{
       flex-direction: column-reverse;
+      padding: 80px 10px;
       
     }
     .title{
@@ -276,7 +288,16 @@ p{
       flex-direction:column;
       
     }
-  
+    .curriculum{
+        padding: 0px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+    .btn-special{
+        display: none;
+    }
   }
 
 /* stories style  */
@@ -426,6 +447,156 @@ letter-spacing: 0%;
        margin: 80px 0;
 
 }
+
+/* Mobile styles */
+@media screen and (max-width: 576px) {
+    .stories{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 80px 10px;
+        background: linear-gradient(to top, hsla(342, 98%, 50%, 0.247), hsla(0, 0%, 100%, 0));
+        
+    }
+    .stories-containier{
+        display: flex;
+        flex-direction: row;
+        margin-top: 80px;
+        gap: 10px;
+    
+        
+    }
+    .stories-containier > div {
+      flex: 1;  
+    }
+    .cart-primary{
+       
+        display: none;
+    
+    }
+    
+    .cart-secondary{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        height: 100%;
+        gap: 5px;
+    }
+    .cart-secondary > div{
+        flex: 1;
+    }
+    
+    .cart-secondary1{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        height: 100%;
+        gap: 10px;
+    }
+    .cart-secondary2{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        height: 100%;
+        gap: 10px;
+    }
+    .stories-img1{
+        max-height: 337px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .stories-img2, .stories-img3, .stories-img4, .stories-img5{
+        max-height: 177px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    
+    .stories-cart1{
+        display: none;
+        flex-direction: column;
+        height: 630px;
+    }
+    .stories-title1{
+        color: rgb(0, 0, 0);
+        margin-top: 1.5rem;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 38.35px;
+        letter-spacing: 0%;
+        text-align: left;
+        padding: 0 2rem ;
+        width: 402.49px;
+        height: 69.98px;
+    }
+    .stories-description1{
+        padding: 0 0;
+        color: #666666;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+    }
+    
+    .stories-title{
+        padding: 1rem 2.5rem;
+        
+    font-size: 15.34px;
+    font-weight: 700;
+    line-height: 28.76px;
+    letter-spacing: 0%;
+    
+    
+    }
+    .stories-cart2{
+        background: white;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+    }
+    .stories-cart3{
+        background: white;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+    }
+    .stories-cart4{
+        background: white;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+    }
+    .stories-cart5{
+        background: white;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+    }
+    .btn-stories{
+        color: white;
+        padding: 10px 10px;
+        margin-left: 25px;
+        margin-top: -17px;
+        border-radius: 47px;
+        background-color: #95B226;
+        width: 175px;
+        border: none;
+    }
+    .btn-primary-stories{
+           margin: 80px 0;
+    
+    }
+    
+
+
+}
+
+
 /* footer style */
 footer{
     justify-content: space-between;
@@ -460,6 +631,7 @@ footer{
 @media screen and (max-width: 576px) {
   .footer{
     flex-direction: column;
+    padding: 80px 10px;
   }
 
 }
